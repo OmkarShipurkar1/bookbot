@@ -13,14 +13,6 @@ def get_book_text():
 
     return file_contents
 
-
-car = {
-  "brand": "Toyota",
-  "model": "Camry",
-  "year": 2019
-}
-
-
 print("============ BOOKBOT ============")
 print(f"Analyzing book found at {book_path}...")
 print("----------- Word Count ----------")
